@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-div {
+    background-color: #404040;
+    text-align: center;
+    padding: 80px;
+}
+
+.calculator-div {
+    background-color: black;
+    border-style: solid;
+    width: 300px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 25px;
+    padding: 17px;
+    margin: 0px;
+}
+
+.result-box {
+    text-align: right;
+    color: grey;
+    padding: 11px;
+    font-size: 44px;
+}
+
+.calculator-button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.symbol-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    background-color: lightgrey;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 11px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.number-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 11px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.spec-button {
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 11px;
+    padding: 10px;
+    cursor: pointer;
+}
